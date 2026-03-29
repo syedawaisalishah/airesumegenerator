@@ -9,7 +9,7 @@ from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 import textwrap
 
-load_dotenv()
+# load_dotenv()
 
 st.set_page_config(page_title="ATS Resume Generator", layout="wide")
 st.title("ATS Resume Generator")
